@@ -16,4 +16,9 @@ func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {
         let blue = CGFloat(rgbValue & 0xFF)/256.0
         return UIColor(red:red, green:green, blue:blue, alpha:CGFloat(alpha))
 } // UIColorFromHex
+
+// code to present view controller
+
+let vc = ViewController() //change this to your class name
+self.presentViewController(vc, animated: true, completion: nil)
 '''
