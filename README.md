@@ -21,4 +21,11 @@ func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {
 
 let vc = ViewController() //change this to your class name
 self.presentViewController(vc, animated: true, completion: nil)
+
+// prepare to segue
+
+override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+}
 '''
