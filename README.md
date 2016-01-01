@@ -2,7 +2,7 @@
 
 Compilation of some of the most commonly used stuff while I develop apps
 
-### Code Unwind to previous home screen.
+### Unwind to Previous Screen
 ```Swift
 
 @IBAction func unwindToPrevious(segue: UIStoryboardSegue) {
@@ -10,7 +10,7 @@ Compilation of some of the most commonly used stuff while I develop apps
 
 ```
 
-### Produce UIColor from hex values
+### Produce UIColor from Hex Values
 
 ```Swift
 
@@ -22,14 +22,22 @@ func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {
 } // UIColorFromHex
 ```
 
-### code to present view controller
+### Present View Controller
 
 ```Swift
 let vc = ViewController() //change this to your class name
 self.presentViewController(vc, animated: true, completion: nil)
 ```
 
-### prepare to segue
+### Present View Controller with Storyboard ID
+
+```Swift 
+let storyboard = UIStoryboard(name: "Main", bundle: nil)
+let vc = storyboard.instantiateViewControllerWithIdentifier("nav1") as! CustomNavigationVC
+self.presentViewController(vc, animated: true, completion: nil)
+```
+
+### Prepare to Segue
 
 ```Swift
 override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
