@@ -49,11 +49,15 @@ override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 ### Screen Dimensions
 
 Useful when you want to create UI based on the model of the phone.
+Note:- Include this code in your viewDidLoad() as shown below
 
 ```Swift
-
-let screenSize: CGRect = UIScreen.mainScreen().bounds
-let screenHeight = screenSize.height
-let screenWidth = screenSize.width
+override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let screenHeight = screenSize.height
+        let screenWidth = screenSize.width
+}
 
 ```
