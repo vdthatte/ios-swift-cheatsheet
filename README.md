@@ -43,7 +43,7 @@ self.presentViewController(vc, animated: true, completion: nil)
 override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-}
+} // prepareForSegue
 ```
 
 ### Screen Dimensions
@@ -58,6 +58,6 @@ override func viewDidLoad() {
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let screenHeight = screenSize.height
         let screenWidth = screenSize.width
-}
+} // viewDidLoad
 
 ```
