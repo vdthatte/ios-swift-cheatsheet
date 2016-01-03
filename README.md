@@ -54,5 +54,6 @@ Useful when you want to create UI based on the model of the phone.
 
 let screenSize: CGRect = UIScreen.mainScreen().bounds
 screenHeight = screenSize.height
+screenWidth = screenSize.width
 
 ```
