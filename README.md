@@ -1,4 +1,4 @@
-# ios-swift-cheatsheet
+# Swift Cheatsheet
 
 Compilation of some of the most commonly used stuff while I develop apps
 
