@@ -53,7 +53,7 @@ Useful when you want to create UI based on the model of the phone.
 ```Swift
 
 let screenSize: CGRect = UIScreen.mainScreen().bounds
-screenHeight = screenSize.height
-screenWidth = screenSize.width
+let screenHeight = screenSize.height
+let screenWidth = screenSize.width
 
 ```
