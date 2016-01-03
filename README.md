@@ -45,3 +45,14 @@ override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Pass the selected object to the new view controller.
 }
 ```
+
+### Screen Dimensions
+
+#### Useful when you want to create UI based on the model of the phone.
+
+```Swift
+
+let screenSize: CGRect = UIScreen.mainScreen().bounds
+screenHeight = screenSize.height
+
+```
