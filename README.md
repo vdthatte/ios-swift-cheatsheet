@@ -5,6 +5,7 @@ Compilation of some of the most commonly used stuff while I develop apps
 ```Swift
 
 @IBAction func unwindToPrevious(segue: UIStoryboardSegue) {
+        // some code to execute
 } // unwindToPrevious
 
 ```
