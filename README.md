@@ -48,7 +48,7 @@ override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
 ### Screen Dimensions
 
-#### Useful when you want to create UI based on the model of the phone.
+Useful when you want to create UI based on the model of the phone.
 
 ```Swift
 
