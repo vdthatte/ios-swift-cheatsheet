@@ -1,5 +1,5 @@
 # Swift Cheatsheet
-Compilation of some of the most commonly used stuff while I develop apps
+Compilation of some of the most commonly used stuff while I develop apps.
 
 ### Unwind to Previous Screen
 ```Swift
@@ -61,3 +61,13 @@ override func viewDidLoad() {
 } // viewDidLoad
 
 ```
+
+### Dismiss View Controller
+
+```Swift
+
+self.dismissViewControllerAnimated(false, completion: nil)
+
+```
+
+
