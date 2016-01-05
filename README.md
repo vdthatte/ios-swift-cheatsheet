@@ -70,4 +70,12 @@ self.dismissViewControllerAnimated(false, completion: nil)
 
 ```
 
+### Rotate image
+
+```Swift
+
+self.imageView.transform = CGAffineTransformMakeRotation((180.0 * CGFloat(M_PI)) / 180.0)
+
+```
+
 
