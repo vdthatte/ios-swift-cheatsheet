@@ -74,7 +74,7 @@ self.dismissViewControllerAnimated(false, completion: nil)
 
 ```Swift
 
-self.transform = CGAffineTransformMakeRotation((value_to_rotate * CGFloat(M_PI)) / 180.0)
+self.transform = CGAffineTransformMakeRotation((valueToRotate * CGFloat(M_PI)) / 180.0)
 
 ```
 
