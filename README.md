@@ -81,7 +81,7 @@ self.transform = CGAffineTransformMakeRotation((valueToRotate * CGFloat(M_PI)) /
 ### text label multiple lines
 
 ```Swift
-textLabel.lineBreakMode = .ByWordWrapping //  or NSLineBreakMode.ByWordWrapping
+textLabel.lineBreakMode = .ByWordWrapping // or NSLineBreakMode.ByWordWrapping
 textLabel.numberOfLines = 0 
 ```
 
