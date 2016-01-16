@@ -85,4 +85,10 @@ textLabel.lineBreakMode = .ByWordWrapping // or NSLineBreakMode.ByWordWrapping
 textLabel.numberOfLines = 0 
 ```
 
+### circular image
+
+```Swift
+        self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
+        self.profileImageView.clipsToBounds = true;
+```
 
