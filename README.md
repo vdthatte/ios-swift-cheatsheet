@@ -92,3 +92,20 @@ textLabel.numberOfLines = 0
         self.profileImageView.clipsToBounds = true;
 ```
 
+### Segment Buttons Tapped
+
+```Swift
+
+        switch segmentView.selectedSegmentIndex
+        {
+        case 0:
+            userInformationLabel.text = "text1";
+        case 1:
+            userInformationLabel.text = "text2";
+        case 2:
+            userInformationLabel.text = "text3";
+        default:
+            break; 
+        }
+```
+
