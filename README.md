@@ -109,3 +109,39 @@ textLabel.numberOfLines = 0
         }
 ```
 
+### Swipe Gesture
+
+###### Thanks to http://www.ioscreator.com/tutorials/detecting-swipe-gesture-tutorial-ios8-swift
+
+####### Add the code below in your viewDidLoad
+```Swift 
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    var leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
+    var rightSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
+    
+    leftSwipe.direction = .Left
+    rightSwipe.direction = .Right
+    
+    view.addGestureRecognizer(leftSwipe)
+    view.addGestureRecognizer(rightSwipe)
+}
+
+```
+
+####### Add this method in your View Controller Class
+```Swift
+
+func handleSwipes(sender:UISwipeGestureRecognizer) {
+    if (sender.direction == .Left) {
+      println("Swipe Left")
+    }
+    
+    if (sender.direction == .Right) {
+      println("Swipe Right")
+      self.swipeLabel.frame.size.height)
+    }
+}
+```
+
