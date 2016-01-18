@@ -144,4 +144,12 @@ func handleSwipes(sender:UISwipeGestureRecognizer) {
     }
 }
 ```
-
+### Error Handling - Swift 2.0
+```Swift
+        do{
+            try (statements)
+        }
+        catch{
+            print("errors")
+        }
+```
