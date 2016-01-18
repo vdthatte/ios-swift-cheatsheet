@@ -12,6 +12,8 @@ Compilation of some of the most commonly used stuff while I develop apps.
 
 ### Produce UIColor from Hex Values
 
+###### This is pretty awesome - https://github.com/yeahdongcn/UIColor-Hex-Swift
+
 ```Swift
 
 func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {
