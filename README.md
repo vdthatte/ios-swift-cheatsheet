@@ -92,7 +92,7 @@ textLabel.numberOfLines = 0
         self.profileImageView.clipsToBounds = true;
 ```
 
-### Segment Buttons Tapped
+### Inside Segment Buttons Tapped
 
 ```Swift
 
