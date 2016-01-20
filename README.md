@@ -79,7 +79,7 @@ self.dismissViewControllerAnimated(false, completion: nil)
 
 ```
 
-#### rotate
+#### Rotate
 
 ```Swift
 
@@ -87,14 +87,14 @@ self.transform = CGAffineTransformMakeRotation((valueToRotate * CGFloat(M_PI)) /
 
 ```
 
-#### text label multiple lines
+#### Text Label Multiple Lines
 
 ```Swift
 textLabel.lineBreakMode = .ByWordWrapping // or NSLineBreakMode.ByWordWrapping
 textLabel.numberOfLines = 0 
 ```
 
-#### circular image
+#### Circular Image
 
 ```Swift
         self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
