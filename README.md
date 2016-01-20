@@ -3,9 +3,9 @@
 ### Helpful resources
 ###### Swift Cookbook by @vandadnp https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook
 
-#### Compilation of some of the most commonly used stuff while I develop apps.
+### Compilation of some of the most commonly used stuff while I develop apps.
 
-### Unwind to Previous Screen
+#### Unwind to Previous Screen
 ```Swift
 
 @IBAction func unwindToPrevious(segue: UIStoryboardSegue) {
@@ -14,7 +14,7 @@
 
 ```
 
-### Produce UIColor from Hex Values
+#### Produce UIColor from Hex Values
 
 ###### This is pretty awesome - https://github.com/yeahdongcn/UIColor-Hex-Swift
 
@@ -28,14 +28,14 @@ func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {
 } // UIColorFromHex
 ```
 
-### Present View Controller
+#### Present View Controller
 
 ```Swift
 let vc = ViewController() //change this to your class name
 self.presentViewController(vc, animated: true, completion: nil)
 ```
 
-### Present View Controller with Storyboard ID
+#### Present View Controller with Storyboard ID
 
 ```Swift 
 let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -43,7 +43,7 @@ let vc = storyboard.instantiateViewControllerWithIdentifier("nav1") as! CustomNa
 self.presentViewController(vc, animated: true, completion: nil)
 ```
 
-### Prepare to Segue
+#### Prepare to Segue
 
 ```Swift
 override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -52,7 +52,7 @@ override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 } // prepareForSegue
 ```
 
-### Screen Dimensions
+#### Screen Dimensions
 
 Useful when you want to create UI based on the model of the phone.
 Note:- Include this code in your viewDidLoad() as shown below
@@ -68,7 +68,7 @@ override func viewDidLoad() {
 
 ```
 
-### Dismiss View Controller
+#### Dismiss View Controller
 
 ```Swift
 
@@ -76,7 +76,7 @@ self.dismissViewControllerAnimated(false, completion: nil)
 
 ```
 
-### rotatate
+#### rotate
 
 ```Swift
 
@@ -84,21 +84,21 @@ self.transform = CGAffineTransformMakeRotation((valueToRotate * CGFloat(M_PI)) /
 
 ```
 
-### text label multiple lines
+#### text label multiple lines
 
 ```Swift
 textLabel.lineBreakMode = .ByWordWrapping // or NSLineBreakMode.ByWordWrapping
 textLabel.numberOfLines = 0 
 ```
 
-### circular image
+#### circular image
 
 ```Swift
         self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
         self.profileImageView.clipsToBounds = true;
 ```
 
-### Inside Segment Buttons Tapped
+#### Inside Segment Buttons Tapped
 
 ```Swift
 
@@ -115,7 +115,7 @@ textLabel.numberOfLines = 0
         }
 ```
 
-### Swipe Gesture
+#### Swipe Gesture
 
 ###### Thanks to http://www.ioscreator.com/tutorials/detecting-swipe-gesture-tutorial-ios8-swift
 
@@ -150,7 +150,7 @@ func handleSwipes(sender:UISwipeGestureRecognizer) {
     }
 }
 ```
-### Error Handling - Swift 2.0
+#### Error Handling - Swift 2.0
 ```Swift
         do{
             try (statements)
