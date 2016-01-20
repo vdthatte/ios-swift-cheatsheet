@@ -1,5 +1,9 @@
 # Swift Cheatsheet
-Compilation of some of the most commonly used stuff while I develop apps.
+
+### Helpful resources
+###### Swift Cookbook by @vandadnp https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook
+
+#### Compilation of some of the most commonly used stuff while I develop apps.
 
 ### Unwind to Previous Screen
 ```Swift
