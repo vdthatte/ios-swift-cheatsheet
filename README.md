@@ -4,7 +4,7 @@
 ###### Swift Cookbook by @vandadnp https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook
 ###### Awesome Swift by @matteocrippa https://github.com/matteocrippa/awesome-swift
 ###### Awesome Swift by @Wolg https://github.com/Wolg/awesome-swift
-###### Awesome ios by @vsouza https://github.com/vsouza/awesome-ios
+###### Awesome iOS by @vsouza https://github.com/vsouza/awesome-ios
 <br>
 ### Compilation of some of the most commonly used stuff while I develop apps.
 
