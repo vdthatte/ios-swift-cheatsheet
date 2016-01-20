@@ -105,17 +105,16 @@ textLabel.numberOfLines = 0
 
 ```Swift
 
-        switch segmentView.selectedSegmentIndex
-        {
-        case 0:
-            userInformationLabel.text = "text1";
-        case 1:
-            userInformationLabel.text = "text2";
-        case 2:
-            userInformationLabel.text = "text3";
-        default:
-            break; 
-        }
+switch segmentView.selectedSegmentIndex{
+case 0:
+    userInformationLabel.text = "text1";
+case 1:
+    userInformationLabel.text = "text2";
+case 2:
+    userInformationLabel.text = "text3";
+default:
+    break; 
+}
 ```
 
 #### Swipe Gesture
@@ -155,10 +154,10 @@ func handleSwipes(sender:UISwipeGestureRecognizer) {
 ```
 #### Error Handling - Swift 2.0
 ```Swift
-        do{
-            try (statements)
-        }
-        catch{
-            print("errors")
-        }
+do{
+    try (statements)
+}
+catch{
+    print("errors")
+}
 ```
