@@ -6,7 +6,7 @@
 ###### Awesome Swift by @Wolg https://github.com/Wolg/awesome-swift
 ###### Awesome iOS by @vsouza https://github.com/vsouza/awesome-ios
 <br>
-### Compilation of some of the most commonly used stuff while I develop apps.
+## Compilation of some of the most commonly used stuff while I develop apps.
 
 #### Unwind to Previous Screen
 ```Swift
