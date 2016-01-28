@@ -169,3 +169,15 @@ let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle
 alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.Default, handler: nil))
 self.presentViewController(alert, animated: true, completion: nil)
 ```
+
+#### Pinch Gesture 
+
+###### Thanks to: http://www.ioscreator.com/tutorials/scale-image-pinch-gesture-ios8-swift
+```Swift
+
+@IBAction func scaleImage(sender: UIPinchGestureRecognizer) {
+    self.view.transform = CGAffineTransformScale(self.view.transform, sender.scale, sender.scale)
+    sender.scale = 1
+}
+
+```
