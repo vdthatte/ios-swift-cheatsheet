@@ -181,3 +181,23 @@ self.presentViewController(alert, animated: true, completion: nil)
 }
 
 ```
+#### Draw a ring using Core Graphics
+
+##### Thanks to: http://stackoverflow.com/questions/29616992/how-do-i-draw-a-circle-in-ios-swift
+```Swift 
+
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: 100,y: 100), radius: CGFloat(20), startAngle: CGFloat(0), endAngle:CGFloat(M_PI * 2), clockwise: true)
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = circlePath.CGPath
+        
+        //change the fill color
+        shapeLayer.fillColor = UIColor.clearColor().CGColor
+        //you can change the stroke color
+        shapeLayer.strokeColor = UIColor.redColor().CGColor
+        //you can change the line width
+        shapeLayer.lineWidth = 3.0
+        
+        view.layer.addSublayer(shapeLayer)
+
+```
