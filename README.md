@@ -201,3 +201,11 @@ self.presentViewController(alert, animated: true, completion: nil)
         view.layer.addSublayer(shapeLayer)
 
 ```
+
+#### Hide Back Button in the Navigation Bar
+```Swift
+// Add to ViewDidLoad()
+self.navigationItem.setHidesBackButton(true, animated:true);
+
+
+```
